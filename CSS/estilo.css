@@ -54,7 +54,7 @@
 }
 
 .sidebar .logo_name{
-    font-size: 22px;
+    font-size: 20px;
     color: white;
     font-weight: 600;
 }
@@ -181,7 +181,7 @@ nav ul li a span.rotate{
 }
 
 .info1, .info2, .info3, .info4{
-    margin: 30px 80px 0 100px;
+    margin: 30px 20px 0 10px;
 
 }
 
@@ -195,6 +195,12 @@ nav ul li a span.rotate{
     color: #049C9A;
     font-size: 25px;
     font-weight: 400;
+}
+@media (max-width:760px) {
+    .text{
+        width: 100%;
+        margin: 10px;
+    }
 }
 
 .conhecaAcervo{
@@ -268,7 +274,7 @@ nav ul li a span.rotate{
 }
 
 .diversosLivros{
-    padding: 20px 200px 40px 200px;
+    padding: 20px 20px 40px 20px;
     background-color: #f5f5f5 ;
     margin-top: -30px;
     text-align: center;
@@ -310,7 +316,48 @@ nav ul li a span.rotate{
 .diversosImg{
     text-align: center;
 }
+@media (max-width:760px){
+    .txtLivro p{
+        width: 100%;
+        margin: 10px;
+    }
 
+    .container h1{
+        width: 100%;
+        margin: 10px;
+    }
+    
+    .livrosQueTemos{
+        width: 100%;
+        margin: 10px;
+    }
+
+    .livro1, .livro2, .livro3{
+        width: 100%;
+        margin: 10px;
+    }
+    .diversosLivros{
+        width: 100%;
+        margin: 10px;  
+    }
+    .diversosLivros h1{
+        width: 100%;
+        margin: 10px;
+    }
+    .diversosTxt p{
+        width: 100%;
+        margin: 0px;
+    }
+    .diversosTxt button{
+        margin: 10px;
+    }
+    .diversosTxt button a, .txtLivro a{
+        margin: 10px;
+    }
+    .diversosTxt button:hover{
+        margin: 10px;
+    }
+}
 /******************************************Fim da infomações sobre o site*******************************************/
 
 /*********************************************Inicio do corpo sobre nós*********************************************/
@@ -413,6 +460,72 @@ h4 {
 .Valores h4{
     text-align: center;
 }
+@media (max-width:760px) {
+    .container div{
+        width: 100%;
+        margin: 10px;
+    }
+    .sobreNos{
+        width: 100%;
+        margin: 10px;
+    }
+    .item1{
+        width: 100%;
+        margin: 10px;
+    }
+    .item1 h3{
+        width: 100%;
+        margin: 10px;
+    }
+    .item2{
+        width: 100%;
+        margin: 10px;
+    }
+    .item2 h3{
+        width: 100%;
+        margin: 10px;
+    }
+    .container{
+        width: 100%;
+        margin: 10px;
+    }
+    h4{
+        width: 100%;
+        margin: 10px; 
+    }
+    .flex{
+        width: 100%;
+        margin: 10px; 
+    }
+    .flex > div{
+        width: 100%;
+        margin: 10px;
+    }
+    .Missao{
+        width: 100%;
+        margin: 10px;
+    }
+    .Missao h4{
+        width: 100%;
+        margin: 10px;
+    }
+    .Visao{
+        width: 100%;
+        margin: 10px;
+    }
+    .Visao h4{
+        width: 100%;
+        margin: 10px;
+    }
+    .Valores{
+        width: 100%;
+        margin: 10px;
+    }
+    .Valores h4{
+        width: 100%;
+        margin: 10px;
+    }
+}
 /***********************************Inicio dos responsaveis**********************************************************/
 
 .integrantes{
@@ -454,6 +567,27 @@ h4 {
 .flex2 > div{
     flex: 1 1 200px;
     margin: 33px;
+}
+@media (max-width:760px) {
+    .integrantes{
+        margin: 10px;
+    }
+    .integrantes img{
+        margin: 10px;
+    }
+    .resp1 p{
+        margin: 0px;
+    }
+    .resp2 p{
+        margin: 0px;
+    }
+    .resp3 p{
+        margin: 0px;
+    }
+    .flex2{
+        margin: 10px;
+    }
+
 }
 
 /******************************************Fim dos Responsaveis******************************************************/
@@ -551,6 +685,36 @@ ul li span{
     background: #fff;
     color: red;
 }
+@media (max-width:760px) {
+    .formContato{
+        margin: 10px;
+    }
+    .formContato h1{
+        margin: 10px;
+    }
+    .formIcon label{
+        margin: 10px;
+    }
+    .formIcon input{
+        margin: 10px;
+    }
+    .formIcon textarea{
+        margin: 10px;
+    }
+    .buttonEnviar{
+        margin: 10px;
+    }
+    form .btnEnviar{
+        margin: 10px;
+    }
+    ul li span{
+        margin: 10px;
+    }
+    .error{
+        margin: 10px;
+    }
+
+}
 
 /**************************************Fim Parte Conato/ Sugestões***************************************************/
 
@@ -582,5 +746,27 @@ ul li span{
     padding: 10px;
     margin: 10px;
     border-radius: 50px;
+}
+
+@media (max-width:760px) {
+    .rodape{
+        width: 100%;
+        margin: 10px;
+    }
+    .txtRodape p{
+        width: 100%;
+        margin: 10px;
+    }
+    .logoRodape{
+        width: 100%;
+        margin: 10px;
+    }
+    .midiasSociais{
+        width: 100%;
+        margin: 10px;
+    }
+    .midiasSociais .midia{
+        margin: 0px;
+    }
 }
 /*************************************************Fim do Rodapé*******************************************************/

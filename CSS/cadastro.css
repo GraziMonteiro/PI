@@ -104,6 +104,68 @@ header {
     background: #fff;
     color: red;
 }
-
+@media (max-width:760px) {
+    .cad{
+        width: 100%;
+        margin: 10px;
+    }
+   
+    .titulo{
+        width: 100%;
+        margin: 10px;
+    }
+    .logo{
+        width: 100%;
+        margin: 10px;
+    }
+    body{
+        width: 100%;
+        margin: 0px;
+    }
+    ul{
+        width: 100%;
+        margin: 0px;
+    }
+    ul li{
+        width: 100%;
+        margin: 0px;
+    }
+    header{
+        width: 100%;
+        margin: 0px;
+    }
+    .container {
+        width: 100%;
+        margin: 0px;
+    }
+    #my-form{
+        width: 100%;
+        margin: 0px;
+    }
+    #my-form label{
+        width: 100%;
+        margin: 10px;
+    }
+    #my-form input{
+        width: 100%;
+        margin: 10px;
+    }
+    #my-form select{
+        width: 100%;
+        margin: 10px;
+    }
+    .botao{
+        width: 100%;
+        margin: 10px;
+    }
+    .botao:hover{
+        width: 100%;
+        margin: 10px;
+    }
+    .bg-dark{
+        width: 100%;
+        margin: 0px;
+    }
+}
 
 /***************************************FIM Do Cadastro****************************************************************/

@@ -213,6 +213,26 @@ nav ul li a span.rotate{
     flex: 1 1 200px;
     margin: 10px;
 }
+
+@media (max-width:760px) {
+    .perfil{
+        width: 100%;
+        margin: 10px;
+    }
+    .nome{
+        width: 100%;
+        margin: 10px;
+    }
+    .banner{
+        width: 100%;
+        margin: 10px;
+    }
+    .flexbox{
+        width: 100%;
+        margin: 10px;
+    }
+
+}
 /***********************************************LIVROS QUE GOSTEI******************************************************/
 .card {
     display: grid;
@@ -239,4 +259,30 @@ nav ul li a span.rotate{
 
 .card:nth-child(even) img {
  order: 2;
+}
+
+@media (max-width:760px) {
+    .card{
+        width: 100%;
+        margin: 0px;
+    }
+    .imgLi{
+        width: 100%;
+        margin: 10px;
+    }
+    .card>div{
+        width: 100%;
+        margin: 0px;
+    }
+    .card h3{
+        width: 100%;
+        margin: 0px;
+    }
+    .pag{
+        text-align: center;
+        font-size: 18px;
+        margin: -1px;
+    }
+
+
 }
